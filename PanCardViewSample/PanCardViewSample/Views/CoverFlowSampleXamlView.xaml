@@ -16,6 +16,7 @@
 
     <StackLayout>
             <cards:CoverFlowView 
+                IsViewCacheEnabled="false"
                 PositionShiftValue="60"
                 IsCyclical="false"
                 IsAutoInteractionRunning="{Binding IsAutoAnimationRunning}"

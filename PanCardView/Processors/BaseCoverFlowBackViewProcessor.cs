@@ -32,6 +32,8 @@ namespace PanCardView.Processors
                     * index;
                 view.IsVisible = true;
                 view.BatchCommit();
+
+                System.Console.WriteLine($"BackView TranslationX = {view.TranslationX}");
             }
         }
 
@@ -49,6 +51,8 @@ namespace PanCardView.Processors
                 view.TranslationX = cardsView.Width;
                 view.IsVisible = false;
                 view.BatchCommit();
+
+                System.Console.WriteLine($"BackView INVISIBLE TranslationX = {view.TranslationX}");
             }
         }
 

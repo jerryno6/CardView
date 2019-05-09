@@ -26,6 +26,7 @@ namespace PanCardView.Processors
                 view.TranslationX = 0;
                 view.IsVisible = true;
                 view.BatchCommit();
+                System.Console.WriteLine($"FrontView TranslationX = {view.TranslationX}");
             }
         }
 

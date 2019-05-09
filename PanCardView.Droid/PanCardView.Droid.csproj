@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>PanCardView.Droid</RootNamespace>
     <AssemblyName>PanCardView.Droid</AssemblyName>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
@@ -132,7 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PanCardView\PanCardView.csproj">
-      <Project>{662BF768-43C5-4A71-8F1E-7FA54DD6157A}</Project>
+      <Project>{9A2D6C28-672D-46E1-868E-3B953AFE3577}</Project>
       <Name>PanCardView</Name>
     </ProjectReference>
   </ItemGroup>
